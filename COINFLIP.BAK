@@ -1,0 +1,24 @@
+ #include <stdio.h>
+#include <conio.h>
+#include <stdlib.h>
+void main ()
+{
+randomize();
+clrscr();
+textcolor(2);
+cprintf("Let's Gamble!!\n");
+
+if(random(2))
+{
+textcolor(5);
+textbackground(7);
+cprintf("Heads");
+}
+else
+{
+textcolor(3);
+text
+cprintf("Tails");
+}
+getch();
+}
